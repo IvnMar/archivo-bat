@@ -1,0 +1,10 @@
+Interrupciones
+
+Cuando el dispositivo completa una solicitud, genera una interrupcion que 
+es gestionada por el manejador de interrupciones
+Despierta al proceso que habia solicitado la e/s (en caso de que esta fuera sincrona)
+
+La interrupcion transfiere el control a la rutina de servicio de la misma, generalmente
+por medio del vector de interrupcion, que contiene las direcciones de todas las rutinas de servicio.
+
+La trap es una interrupcion generada por el software causada por un error o por un requerimiento de usuario.

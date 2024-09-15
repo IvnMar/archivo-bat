@@ -1,0 +1,10 @@
+Manejadores de interrupciones
+
+Las interrupcion deben ocultarse de tal forma que una pequenia
+parte del sistema sepa de ellas.
+
+La mejor manera de esconderlas es que daba proceso que inicie una operacion de E/S 
+se bloquee hasta que termina dicha operacion y ocurra una interrupcion.
+
+Al recurrir una interrupcion el procesamiento de interrupcion realiza lo debido para eliminar 
+el bloqueo del proceso que inicio la E/S.

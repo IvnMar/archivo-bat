@@ -1,0 +1,12 @@
+Gestion de recursos
+
+Una PC esta formada por el hardware y el software. El hardware se relaciona con los 
+componentes fisicos y el software con los programas y el sistema operativo.
+
+Para que una PC pueda realizar las tareas solicitadas por el usuario requiere de la 
+asignacion de recursos para cada una de esas tareas. El sistema operativo administra los 
+recursos que se deben asignar a los programas en ejecucion.
+
+El sistema operativo administra la unidad central de procesamiento, los dispositivos de 
+entrada y salida, la memoria principal o memoria RAM, los discos o memoria virtual, los 
+procesos o programas en ejecucion y en general todos los recursos del sistema.

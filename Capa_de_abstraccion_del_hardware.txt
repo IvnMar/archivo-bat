@@ -1,0 +1,5 @@
+Capa de abstracción del hardware:
+El kernel proporciona una capa de abstraccion para el hardware, de modo que los programas y aplicaciones 
+no necesiten saber detalles especificos del hardware subyacente (como la arquitectura de la CPU o los 
+controladores de dispositivos). En lugar de eso, los programas interactuan con el kernel mediante llamadas 
+al sistema, y este se encarga de realizar las tareas relacionadas con el hardware.

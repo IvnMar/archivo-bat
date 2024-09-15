@@ -1,0 +1,13 @@
+Programas del sistema
+
+Los programas del sistema forman parte de los componentes del sistema operativo y son 
+aplicaciones que se instalan con el sistema operativo pero que no forman parte de el. Los 
+programas del sistema son utiles para el desarrollo y ejecucion de los programas de 
+usuario.
+
+Las tareas que realizan los programas del sistema son: manipulacion y modificacion de 
+archivos, informacion del estado del sistema, soporte a lenguajes de programacion y 
+comunicaciones.
+
+El sistema operativo es el encargado de gestionar las tareas que realizan los diferentes 
+programas del sistema.

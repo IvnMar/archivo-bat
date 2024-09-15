@@ -1,0 +1,11 @@
+Llamadas a sistema
+
+Las llamadas al sistema (syscall) son la forma en que los programas requieren
+servicios del kernel del SO (recordar el modo usuario y el modo privilegiado)
+
+Las llamadas estan disponibles como instrucciones en lenguaje ensamblador, y comunmente por los 
+programadores de estos lenguajes.
+
+Ciertos sistemas permiten que las llamadas al sistema se haga directamente desde un programa en lenguaje de alto nivel, 
+en cuyo caso se asemejan a llamadas a subrutinas o a funciones predefinidas, pueden generar una llamada
+a una rutina especial en tiempo de ejecucion, la cual hace la llamada al sistema, o este producirse directo en linea.

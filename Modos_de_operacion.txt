@@ -1,0 +1,6 @@
+Modos de operacion:
+
+El kernel opera en un modo privilegiado (modo kernel o modo supervisor) en el que tiene acceso completo 
+a todos los recursos del sistema, incluido el hardware. Esto lo diferencia de las aplicaciones de usuario, 
+que operan en un modo restringido (modo usuario), donde no tienen acceso directo al hardware y deben pasar 
+por el kernel para realizar cualquier tarea relacionada con los recursos del sistema.

@@ -1,0 +1,13 @@
+Estructura de Microkernels
+
+Nucleo pequenio de sistema operativo
+
+Contiene solo operaciones esenciales de las funciones del sistema operativo
+Muchos de los servicios tradicionalmente incluidos en el sistema operativo son ahora subsistemas
+externos:
+
+	-Drivers de dispositivos
+	-Sistemas de archivos
+	-Manejo de memoria virtual
+	-Sistema de ventanas
+	-Servicios de seguridad

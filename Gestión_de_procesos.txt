@@ -1,0 +1,15 @@
+Gestión de procesos
+Entre los componentes de un sistema operativo están los procesos. Cuando se habla de 
+un proceso se hace referencia a un programa en ejecución. Un proceso es un conjunto de 
+instrucciones que corresponden a un programa y que son ejecutadas por la CPU. En un 
+programa se pueden ejecutar uno o varios procesos diferentes. La ejecución de un 
+programa necesita recursos del sistema como tiempo de CPU, memoria, archivos y 
+dispositivos de E/S.
+Un proceso puede pasar por los estados nuevo, preparado, ejecución, bloqueado y 
+terminado cuando su ciclo de vida es de 5 estados. Si el proceso solo se ejecuta y termina 
+el ciclo de vida es de 2 estados. Los procesos para su ejecución se planifican siguiendo 
+algoritmos. Dos de los algoritmos de planificación más comunes son el algoritmo Round 
+Robin y el algoritmo FIFO.
+El sistema operativo es el responsable de asignar recursos a los procesos, crear y destruir 
+procesos, parar y reanudar procesos y proporcionar que los procesos se comuniquen y 
+sincronicen.

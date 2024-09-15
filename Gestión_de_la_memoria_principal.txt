@@ -1,0 +1,14 @@
+Gestión de la memoria principal
+Otro de los componentes del sistema operativo es la memoria principal. La memoria 
+principal es un recurso muy importante que se ha de gestionar cuidadosamente para 
+agilizar la ejecución de los procesos. Ante un fallo de energía eléctrica, como la memoria 
+principal es volátil se pierde su contenido.
+La memoria principal se optimiza para asignar espacio a los diferentes programas a 
+ejecutar. Entre los diferentes procesos a ejecutar se comparte la memoria principal. El 
+espacio de memoria asignado se protege para que no se use estando concedido.
+El sistema operativo es el responsable de gestionar la memoria principal conociendo qué 
+espacios de la memoria está siendo utilizada y por qué procesos, decidiendo qué 
+procesos se cargarán en memoria cuando haya espacio disponible, asignando y 
+reclamando espacio de memoria cuando sea necesario, administrar el intercambio entre 
+la memoria principal y la memoria virtual (espacio en el disco usado para los procesos 
+cuando la memoria principal no es suficiente).

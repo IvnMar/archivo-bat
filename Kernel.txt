@@ -1,0 +1,60 @@
+Kernel
+
+El kernel especificamente es la parte mas fundamental y critica de un sistema operativo. 
+Es un programa que reside en la memoria y tiene el control total sobre todos los demas componentes del sistema, 
+tanto software como hardware. A diferencia de otras partes del sistema operativo (como las interfaces de usuario y 
+las aplicaciones), el kernel esta siempre en ejecucion, y su principal funcion es servir de enlace entre el hardware 
+y el software.
+
+
+Control total sobre los recursos:
+El kernel tiene autoridad sobre:
+
+	-Memoria: Asigna y administra la memoria para los programas, asegurandose de que los diferentes procesos no 	
+		  interfieran entre si.
+
+	-Procesadores: Decide qué procesos se ejecutan en cada momento y como se distribuyen los tiempos de CPU 
+		       (planificacion de procesos).
+
+	-Dispositivos de entrada/salida (E/S): Controla la comunicacion con los dispositivos perifericos, como 	discos, 
+                                               impresoras, y redes.
+
+Tipos de kernel:
+
+	-Kernel monolitico: En este disenio, el kernel tiene todos los servicios y controladores integrados 	
+                           directamente. Esto incluye gestion de procesos, memoria, controladores de dispositivos, 
+                            y sistema de archivos. Ejemplos incluyen Linux y versiones mas antiguas de Unix.
+
+	-Microkernel: Un microkernel intenta mantener el nucleo lo mas pequenio posible, delegando la mayoria de las 
+                     funciones (como controladores de dispositivos o gestion de sistemas de archivos) a procesos externos 
+                     que se ejecutan en el espacio de usuario. Ejemplos incluyen Minix y QNX.
+
+	-Hibrido: Combina caracteristicas de los dos anteriores, con algunas partes del sistema corriendo en modo 
+                  kernel y otras en modo usuario. Windows NT y Mac OS X usan este enfoque.
+
+Tareas del kernel:
+	-Gestion de interrupciones: El kernel es responsable de manejar las interrupciones de hardware
+                                    (eventos externos, como cuando se presiona una tecla) y de software 
+                                    (como solicitudes de E/S).
+
+	-Sincronizacion de procesos: Garantiza que los procesos puedan ejecutarse simultaneamente en un entorno 
+                                     multitarea sin conflictos, utilizando mecanismos como semaforos y bloqueos.
+
+	-Planificacion: El kernel determina que proceso o hilo debe ejecutarse en que momento, optimizando el uso 
+                        de la CPU.
+
+	-Seguridad y proteccion: Aisla los procesos entre si y previene el acceso no autorizado a los recursos del 
+                                 sistema, implementando politicas de acceso y permisos.
+
+
+Interaccion con el sistema:
+
+Los programas no interactuan directamente con el hardware. En lugar de ello, hacen llamadas al sistema (syscalls) 
+al kernel. Estas llamadas son solicitudes especificas para que el kernel realice acciones como leer un archivo, 
+asignar memoria o ejecutar un proceso.
+
+Ejemplos de kernels:
+Linux: Kernel monolitico usado en muchas distribuciones de Linux.
+Windows NT Kernel: Kernel hibrido utilizado en todas las versiones modernas de Windows.
+XNU: Kernel hibrido que usa macOS, basado en el microkernel Mach con partes del kernel de BSD.
+

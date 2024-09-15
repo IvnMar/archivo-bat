@@ -1,0 +1,8 @@
+Caching
+
+Uso de memoria de alta velocidad para mantener informacion recientemente accedida.
+
+Se requiere una politica de manejo de cache.
+
+El caching introduce otro nivel de jerarquia de almacenamiento. Esto requiere que datos que están simultáneamente
+es mas de un nivel sean consistentes.

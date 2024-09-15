@@ -1,0 +1,13 @@
+Contadores
+
+Los contadores se usan para proporcionar informacion sobre como funciona el sistema operativo 
+o una aplicacion, un servicio o un controlador
+
+Windows Contadores de rendimiento proporcionan una capa de abstraccion de lato nivel con una interfaz coherente
+ para recopilar varios tipos de datos del sistema, como estadisticas de uso de procesador, memoria y disco.
+
+Los administradores del sistema usan contadores de rendimiento para supervisar los problemas de rendimiento
+o comportamiento.
+
+Los desarrolladores de software usan contadores de rendimiento para inspeccionar el uso de recursos de sus 
+componentes.

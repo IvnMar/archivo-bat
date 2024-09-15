@@ -1,0 +1,14 @@
+Sistemas operativos multiprocesador 
+
+Es una maquina formada por un conjunto procesadores que comparten el acceso
+a una memoria principal comun.
+
+Cada procesador ejecuta su propio programa, debiendo todos ellos compartir 
+la memoria principal comun.
+
+Una ventaja importante de esta solucion es que el acceso a datos comunes por parte
+de varios programas es muy sencillo, puesto que utiliza la memoria principal.
+
+El mayor inconveniente es el limitado numero de procesadores que se 
+puede incluir sin incurrir en el problema de saturar el ancho de banda de la 
+memoria comun.

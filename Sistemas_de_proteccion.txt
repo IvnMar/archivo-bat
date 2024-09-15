@@ -1,0 +1,16 @@
+Sistemas de proteccion
+
+En un sistema operativo varios usuarios pueden ejecutar simultaneamente sus 
+programas, varios procesos se pueden ejecutar simultaneamente, varios programas se 
+pueden ejecutar al mismo tiempo, varios procesos se pueden intercalar para su ejecucion 
+simulando una ejecucion simultanea.
+
+Normalmente estos sistemas operativos utilizan metodos de proteccion de datos, por 
+ejemplo, para que un programa no pueda usar o cambiar los datos de otro usuario. El 
+sistema de proteccion es uno de los componentes del sistema operativo que proporciona 
+el mecanismo que controla el acceso de los programas o los usuarios a los recursos del 
+sistema.
+
+El sistema operativo se encarga de distinguir entre uso autorizado y no autorizado, 
+especificar los controles de seguridad a realizar y forzar el uso de los mecanismos de 
+proteccion.
